@@ -18,7 +18,7 @@ public class MainController {
 
     @FXML
     public void onJouerClicked(ActionEvent actionEvent) throws IOException{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource());
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("player-view.fxml"));
     }
 
 
